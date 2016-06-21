@@ -4,7 +4,7 @@
 
 ## Lesson 1
 
-* [Syntactic Sugar](lesson-1/syntatic-sugar.md)
+* [Syntactic Sugar](lesson-1/syntactic-sugar.md)
 * [Middle School Math](lesson-1/middle-school-math.md)
 * [Data Types](lesson-1/data-types.md)
 * [Final Note on Variables](lesson-1/final-note-on-variables.md)
