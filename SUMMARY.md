@@ -4,8 +4,8 @@
 
 ## Lesson 1
 
-* [Syntactic Sugar](lesson-1/syntactic-sugar.md)
-* [Middle School Math](lesson-1/middle-school-math.md)
+* [Syntactic Sugar](lesson-1/syntax.md)
+* [Middle School Math](lesson-1/variables.md)
 * [Data Types](lesson-1/data-types.md)
 * [Final Note on Variables](lesson-1/final-note-on-variables.md)
 * [Homework](lesson-1/homework.md)
@@ -26,4 +26,9 @@
 ## Lesson 4
 
 * [The first complex data types.](lesson-4/array-and-maps.md)
-* []
+* [Representing Real World Objects.](lesson-5/classes.md)
+* [Homework](lesson-4/homework.md)
+
+## Lesson 5
+
+* 
