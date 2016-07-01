@@ -3,7 +3,7 @@
 1. Look up DRY programming and define the DRY acronym and understand what it
    means.
 
-2. Create a script which has a functino for all basic math operations, addition
+2. Create a script which has a function for all basic math operations, addition
    subtraction, multiplication, and division. Use these functions to break
    PEMDAS and do math in multiple different ways.
 
