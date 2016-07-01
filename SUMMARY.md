@@ -10,7 +10,7 @@
 * [Final Note on Variables](lesson-1/final-note-on-variables.md)
 * [Homework](lesson-1/homework.md)
 
-## Lesson 1
+## Lesson 2
 
 * [Your First Script](lesson-2/your-first-script.md)
 * [Putting the FUN in FUNction](lesson-2/fun-in-function.md)
