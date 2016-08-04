@@ -1,0 +1,76 @@
+# Let's get Loopy!
+
+So if I asked you at this point in your Python career to write a script which 
+counts from 1 to 10 you'd probably write something like this:
+
+```python
+print("1")
+print("2")
+print("3")
+print("4")
+print("5")
+print("6")
+print("7")
+print("8")
+print("9")
+print("10")
+```
+
+And that would certainly work but what if I changed my mind and said "Market 
+demands have increased I need you to count to 100 now." <- Read this in your
+panicked CTO voice.
+
+You would be working that copy and paste functionality really hard and it would
+be a largely manual and painful process, not to mention your CTO would start 
+complaining about not being first to market because of development time.
+
+The whole point of this programming thing is to make the computer do the hard
+stuff for us. Luckily in Computer Science we have the loop:
+
+```python
+x = 0
+
+while x <= 100:
+   print(x)
+   x = x + 1
+
+print("All done!")
+```
+
+*Boom*. Our script now counts to 100 and is even less lines of code than our
+original! The condition should look very familiar to you at this point but to 
+give you an idea of what's going on here here is the plain english version.
+
+1. Set x = 0
+2. (The while loop) is x Less than or equal to 100?
+ - If True execute my code block then go back to step 2.
+ - If False skip my code block
+3. Print all done.
+
+If you remember from before a code block in Python is anything that is indented
+4 spaces after a line that ends with a :
+
+So a while loop will keep executing it's code block until the condition it is
+given evaluates to False. If the condition never evaluates to False the loop
+will go for infinity. Here's an example but be warned this might crash your
+computer if you run it.
+
+```python
+while True:
+   print("Oh no Snake we've entered a time paradox!")
+```
+
+The reason our counting loop isn't infinite is because of the second line in
+it's code block `x = x + 1` this means that each time our code block runs we
+add one to x, so it starts at 0 and prints 0 then x is set to 1, 1 is less than
+or equal to 100 so we print x which is 1 then x is set to 2, so on and so forth
+until x is equal to 101 which makes the while condition evalute to false so we
+skip it's code block and carry on normal execution!
+
+
+Whoo that is one dense section. Take a second and read the code and the explanations
+a few times slowly, write your own while loop that counts backwards from 100,
+make sure you understand how they work.
+
+In the next chapter we'll introduce a new data type, a new loop, then we can
+start getting to some fun stuff!
