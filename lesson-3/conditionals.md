@@ -18,7 +18,9 @@ Of course using constants isn't any better since we know that True is true so in
 Python we have some comparison operators that way we can determine if something
 is True or not when our program is running:
 
-== 
+```
+==
+```
 
 This means "is equal to" so if you see 5 == 3 that is false but 5 == 5 is
 true. You can use variables here as well that way you may not know the value
@@ -31,13 +33,17 @@ def comparator(x, y):
 
 And you call it with comparator(5, 3) it will return False.
 
+```
 > or <
+```
 
 This is exactly like you remember from middle school (see programming is so easy
 you learned most of this when you were 12.) "greater than" or "less than" is the
 easiest 5 < 5 is false but 3 < 5 is True.
 
+```
 <= or >=
+```
 
 "Less than or equal to" or "Greater than or equal to" these are the same as
 above except they also check for == so 5 < 5 is False but 5 <= 5 is True
