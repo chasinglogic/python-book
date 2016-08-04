@@ -23,7 +23,7 @@ is True or not when our program is running:
 ```
 
 This means "is equal to" so if you see 5 == 3 that is false but 5 == 5 is
-true. You can use variables here as well that way you may not know the value
+true. you can use variables here as well that way you may not know the value
 ahead of time. Let's say you have a function
 
 ```python
@@ -55,13 +55,13 @@ x = 5
 y = 10
 
 if x >= y:
-	print("X is greater than or equal to y")
+	print("x is greater than or equal to y")
 
 if x < y:
-	print("X is less than y")
+	print("x is less than y")
 
 if x == y:
-	print("X and y have the same value.")
+	print("x and y have the same value.")
 ```
 
 Try to reason through this program before running it. Then I want you to modify
@@ -90,10 +90,10 @@ statements
 
 ```python
 if x >= y:
-	print("X is greater than or equal to y")
+	print("x is greater than or equal to y")
 
 if x == y:
-	print("X and y have the same value.")
+	print("x and y have the same value.")
 
 ```
 
@@ -104,24 +104,24 @@ else if statement.
 
 ```python
 if x < y:
-	print("X is less than Y")
+	print("x is less than y")
 else:
-	print("X is greater than Y")
+	print("x is greater than y")
 ```
 
 This will execute the first statement if the if is true otherwise it will execute
 the else!
 
-For example given that X = 3 and Y = 5 you will only get one line of output:
+For example given that x = 3 and y = 5 you will only get one line of output:
 
 ```
-X is less than Y
+x is less than y
 ```
 
-And if X = 3 and Y = 3 you will still only get one line of output:
+And if x = 3 and y = 3 you will still only get one line of output:
 
 ```
-X is greater than Y
+x is greater than y
 ```
 
 Which isn't necessarily true but it does make the above if statement evaluate to
@@ -132,26 +132,26 @@ so we can catch this edge case.
 
 ```python
 if x < y:
-    print("X is less than Y")
+    print("x is less than y")
 elif x == y:
-    print("X is equal to Y")
+    print("x is equal to y")
 else:
-    print("X is greater than Y")
+    print("x is greater than y")
 ```
 
 Now when we run python will check each condition in order. Here is a simple plain
 english explanation of what python does here:
 
-1. Is X less than Y?
- - If True then print "X is less than Y" then stop checking conditions
+1. Is x less than y?
+ - If True then print "x is less than y" then stop checking conditions
  - If False check next condition
-2. Is X equal to Y?
- - If True then print "X is equal to Y" then stop checking conditions
+2. Is x equal to y?
+ - If True then print "x is equal to y" then stop checking conditions
  - If False check next condition
-2. Else is a catch all, if we got here then print "X is greather than Y" then
+2. Else is a catch all, if we got here then print "x is greather than y" then
 continue on.
 
-You should go back to our original multiple if statement script and see if you
+you should go back to our original multiple if statement script and see if you
 can explain in plain English what's going on there.
 
 # A little bit of terminology before moving on.
@@ -171,7 +171,7 @@ if x < y:
       #The code block
 ```
 
-You've also seen:
+you've also seen:
 
 ```
 ==
@@ -197,9 +197,34 @@ like the following.
 
 ```python
 if x < y and x > 0:
-    print("X is a positive number that is less than Y")
+    print("x is a positive number that is less than y")
 elif x < y:
-    print("X is less than Y but is not a positive number.")
+    print("x is less than y but is not a positive number.")
 else:
-    print("X is greater than Y")
+    print("x is greater than y")
 ```
+
+What's going on here is that the statement "x is a positive number that is less than y"
+will only be printed if BOTH conditions are true, that is is x is less than y AND 
+x is greater than 0. For instance if x = -1 and y = 2 the condition will check
+
+is -1 < 2? Yes
+is -1 > 0? No
+
+So it returns false since both statements are not true. The reverse of this is
+the or statement which checks if either condition is true so for the example above
+if we wrote it as:
+
+```python
+if x < y or x > 0:
+    print("x is a positive number or is less than y")
+```
+
+The condition would be evaluated to true since one side of the condition is true.
+
+is -1 < 2? Yes
+is -1 > 0? No
+
+returns True
+
+Now lets get looping!
