@@ -20,7 +20,8 @@
 ## Lesson 3
 
 * [Unconditional love](lesson-3/conditionals.md)
-* [One good turn deserves another.](lesson-3/loops.md)
+* [While having fun.](lesson-3/while.md)
+* [For goodness_snakes](lesson-3/for.md)
 * [Variable Scoping](lesson-3/scoping.md)
 * [Homework](lesson-3/homework.md)
 
