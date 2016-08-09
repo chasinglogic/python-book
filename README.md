@@ -1,4 +1,4 @@
-# A guide to speaking parseltongue
+# 0 to Parseltongue in 6 lessons
 ----
 
 ## A quick four word.
@@ -66,6 +66,19 @@ Windows:
 ```bash
 python -m pip install -U pip 
 ```
+
+### Git SCM
+Git is a Source Code Management tool and we'll start using it at Lesson 4 so
+you might as well install it now. 
+
+*For Linux users* once again it's in all the
+standard repos so install it using your distro package manager.
+
+*For Mac users* git comes with xcode install xcode from the Mac App Store
+and you should be good to go
+
+*For Windows users* you can download the installer [here](https://git-scm.com/download/win) 
+you can just accept all the defaults.
 
 ### Coding Style Guide
 We will be coding according to the
