@@ -1,5 +1,21 @@
 # A guide to speaking parseltongue
 ----
+
+## A quick four word.
+
+This is a book.
+
+## A foreword.
+
+This book is made to get you from knowing nothing about programming to having a
+grasp on the basics and where to go from there in the shortest amount of time
+possible. However, this means that the book moves at a very quick pace and it
+expects you to be doing all of the homework, typing all of the examples, and 
+applying what you learn as you learn it. For example when we go over if statements
+write your own script that's not in the book that you come up with to test
+your knowledge. Debugging is the only real way to learn programming and you have
+to be self motivated to get anything from this book.
+
 # Getting Started
 ----
 
