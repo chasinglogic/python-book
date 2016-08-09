@@ -38,7 +38,7 @@
 ## Lesson 5
 
 * [Object Oriented Programming](lesson-5/oop.md) 
-* [Inheritance and why it's bad.](lesson-5/inheritance.md)
+* [Inheritance and why it's sometimes bad.](lesson-5/inheritance.md)
 * [Composition > Inheritance](lesson-5/composition.md)
 * [Homework](lesson-5/homework.md)
 
