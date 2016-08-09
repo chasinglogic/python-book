@@ -23,7 +23,7 @@
 * [While having fun.](lesson-3/while.md)
 * [For goodness_snakes](lesson-3/for.md)
 * [Nesting and loop specific keywords](lesson-3/nesting.md)
-* [The final complex data type.](lesson-3/dictionary.md)
+* [The first complex data type.](lesson-3/dictionary.md)
 * [Variable Scoping](lesson-3/scoping.md)
 * [Homework](lesson-3/homework.md)
 
@@ -60,8 +60,8 @@
 ## Lesson 8 (optional)
 
 * [How the internet works. A brief intro to HTTP.](lesson-8/http.md)
-* [JSON (pronounced jason) is your new best friend.](lesson-8/json.md)
-* [Give me a REST](lesson-8/rest.md)
+* [JSON (pronounced jason or jay-sahn) is your new best friend.](lesson-8/json.md)
+* [Taking a REST](lesson-8/rest.md)
 * [Sending and parsing requests with requests](lesson-8/requests.md)
 * [HTML travels over HTTP](lesson-8/html.md)
 * [A simple web crawler](lesson-8/crawler.md)
