@@ -29,10 +29,11 @@
 
 ## Lesson 4
 
-* [A useful script](lesson-4/intoduction.md)
+* [A useful script](lesson-4/todo.md)
+* [Using Git](lesson-6/git.md)
+* [Text Parsing](lesson-4/parsing.md)
 * [File Input/Output](lesson-4/files.md)
 * [Encapsulation of IO, a taste of functional programming.](lesson-4/encapsulation.md)
-* [Text Parsing](lesson-4/parsing.md)
 * [Homework](lesson-4/homework.md)
 
 ## Lesson 5
@@ -40,6 +41,7 @@
 * [Object Oriented Programming](lesson-5/oop.md) 
 * [Inheritance and why it's sometimes bad.](lesson-5/inheritance.md)
 * [Composition > Inheritance](lesson-5/composition.md)
+* [Improving the Todo](lesson-5/todo.md)
 * [Homework](lesson-5/homework.md)
 
 ## Lesson 6
@@ -47,26 +49,8 @@
 * [How to structure your python projects.](lesson-6/projects.md)
 * [Package vs Module](lesson-6/module.md)
 * [Pip and Virtualenv](lesson-6/pip.md)
+* [Restructuring the ToDo](lesson-6/todo.md)
 * [Homework](lesson-6/homework.md)
-
-## Lesson 7 (optional)
-
-* [Some basic Computer Science](lesson-7/introduction.md)
-* [Linked list, or the most overrepresented data structure in software development](lesson-7/linked-list.md)
-* [Stacks / Queues](lesson-7/stack.md)
-* [Basic Memory Management](lesson-7/memory.md)
-* [Homework](lesson-7/homework.md)
-
-## Lesson 8 (optional)
-
-* [How the internet works. A brief intro to HTTP.](lesson-8/http.md)
-* [JSON (pronounced jason or jay-sahn) is your new best friend.](lesson-8/json.md)
-* [Taking a REST](lesson-8/rest.md)
-* [Sending and parsing requests with requests](lesson-8/requests.md)
-* [HTML travels over HTTP](lesson-8/html.md)
-* [A simple web crawler](lesson-8/crawler.md)
-* [The internet runs on Javascript](lesson-8/javascript.md)
-* [Homework](lesson-8/homework.md)
 
 ## Fin
 
