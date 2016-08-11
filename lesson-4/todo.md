@@ -13,7 +13,8 @@ allows me to type in commands, [help, new <todo>, list, show <todo>], help will 
 the available options and give me some info on how to use the app, new <todo name>
 will create a new todo with the given name and will prompt to write a description
 for the todo, list will list all the todos with an index number, and show <todo name
-or index> will show the description for the indicated todo." 
+or index> will show the description for the indicated todo. I can then save this
+todo list in various forms and load a todo into the app." 
 
 So now that we've defined what we want to do we need to seperate this into a task
 list:
@@ -27,7 +28,13 @@ compare your list with mine.
 >! 4. show todos
 >! 5. list todos
 >! 6. create todos
->! 7. show a help message
+>! 7. save and load application state
+>! 8. show a help message
+
+Take a second and see how I discerned the task list. I know this isn't anything
+to do (badumtsss) with coding but it's a very important skill that will take you
+from someone who knows code to someone who knows how to create things.
 
 Now that we have a defined task list and some direction we can actually begin
-writing code!
+writing code! (Not really now we get to start bootstrapping our application. 
+WOOHOO!)
