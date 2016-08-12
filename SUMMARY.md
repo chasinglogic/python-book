@@ -33,8 +33,8 @@
 * [Using Git](lesson-4/git.md)
 * [Your first application](lesson-4/first_app.md)
 * [Text Parsing](lesson-4/parsing.md)
-* [File Input/Output](lesson-4/files.md)
-* [Encapsulation of IO, a taste of functional programming.](lesson-4/encapsulation.md)
+* [Showing and being helpful](lesson-4/show.md)
+* [Saving Application State](lesson-4/files.md)
 * [Homework](lesson-4/homework.md)
 
 ## Lesson 5
