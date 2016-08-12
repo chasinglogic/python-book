@@ -29,8 +29,9 @@
 
 ## Lesson 4
 
-* [A useful script](lesson-4/todo.md)
-* [Using Git](lesson-6/git.md)
+* [Your first project](lesson-4/todo.md)
+* [Using Git](lesson-4/git.md)
+* [Your first application](lesson-4/first_app.md)
 * [Text Parsing](lesson-4/parsing.md)
 * [File Input/Output](lesson-4/files.md)
 * [Encapsulation of IO, a taste of functional programming.](lesson-4/encapsulation.md)
