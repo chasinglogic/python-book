@@ -192,10 +192,11 @@ so let's write a function to do that:
 ```python
 def get_longform_user_input():
     lines = []
+    line = input()
 
     while line != '':
-        line = input()
         lines.append(line)
+        line = input()
 
     return '\n'.join(lines)
 ```
@@ -222,4 +223,77 @@ def new(command):
 ```
 
 Now we use our new function to get the long input into body, and then new returns
-a dictionary of the title and body.
+a dictionary of the title and body. Unfortunately our app isn't keeping track
+of the created todo's so it just dumps them into nothingness, let's change that:
+
+```python
+todos = []
+
+while True:
+    command = input("Command: ")
+    
+    if command == "help" or command == "?":
+        help()
+    elif command.startswith("new"):
+        todos.append(new(command))
+    elif command == "show":
+        print("Sorry that's not implemented yet!")
+    elif command == "list":
+        print("Sorry that's not implemented yet!")
+    elif command == "quit" or command == "exit":
+        print("Thanks for using Super Todo!")
+        break
+    else:
+        print("That's not a valid command!")
+```
+
+Now we have a global array of todos and when the user creates a new one we
+add it to the array, this won't give us persistence of todos between runs of 
+the application but it will give us persistence while the application is running
+and I'd say that minimally viable for now.
+
+Next lets write the command that will list our current todos:
+
+```python
+def list():
+    for todo in todos:
+        print(todo)
+```
+
+Since the variable todos is a global variable we can just access it directly
+here in our function, this should be a pretty straight forward function to you
+now. 
+
+Go ahead and test this out, make sure you add the function call to your while 
+loop or else the list function won't work!
+
+Have you tested it?, alright notice how the output is pretty ugly? that's because
+we are just printing the raw dictionary to the user which is not what we want.
+
+So let's do a little more formatted output:
+
+```python
+def list():
+    print()
+    print("Your current todo list:")
+    print()
+    for index, todo in enumerate(todos):
+        print("\t", index + 1, todo['title'])
+    print()
+```
+
+A couple new things in this snippet, first the [enumerate function](https://docs.python.org/3/library/functions.html#enumerate)
+is another builtin function which will give you the index with the element in your
+for loop.
+
+Then we are passing multiple arguments to print so it will automatically concatenate
+(combine) them for us and do type conversions where appropriate. The reason
+we do index + 1 is because as Humans we start our lists at 1 but remember that
+arrays are **0 indexed** so we need to add one to make it match our brains.
+Finally we only want to print the title here so we get using the accessor.
+
+Try out our new list function out and see what you think, we're actually getting
+somewhere now!
+
+Next chapter we will tackle showing todos and update our help message to be more
+helpful.
