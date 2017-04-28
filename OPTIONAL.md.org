@@ -1,0 +1,28 @@
+** Lesson 7 (optional)
+   :PROPERTIES:
+   :CUSTOM_ID: lesson-7-optional
+   :END:
+
+-  [[file:lesson-7/introduction.md][Some basic Computer Science]]
+-  [[file:lesson-7/linked-list.md][Linked list, or the most
+   overrepresented data structure in software development]]
+-  [[file:lesson-7/stack.md][Stacks / Queues]]
+-  [[file:lesson-7/memory.md][Basic Memory Management]]
+-  [[file:lesson-7/homework.md][Homework]]
+
+** Lesson 8 (optional)
+   :PROPERTIES:
+   :CUSTOM_ID: lesson-8-optional
+   :END:
+
+-  [[file:lesson-8/http.md][How the internet works. A brief intro to
+   HTTP.]]
+-  [[file:lesson-8/json.md][JSON (pronounced jason or jay-sahn) is your
+   new best friend.]]
+-  [[file:lesson-8/rest.md][Taking a REST]]
+-  [[file:lesson-8/requests.md][Sending and parsing requests with
+   requests]]
+-  [[file:lesson-8/html.md][HTML travels over HTTP]]
+-  [[file:lesson-8/crawler.md][A simple web crawler]]
+-  [[file:lesson-8/javascript.md][The internet runs on Javascript]]
+-  [[file:lesson-8/homework.md][Homework]]
