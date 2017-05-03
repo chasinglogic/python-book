@@ -9,7 +9,7 @@ worries. Syntax is a character or symbol which has only meaning to the
 computer. Such as parentheses in Math. You can use the syntax of parens
 in math to seperate calculations from one another for example:
 
-2 + 3 / 5 `/` (2 + 3) / 5
+`2 + 3 / 5 =/= (2 + 3) / 5`
 
 The parentheses have special meaning in the context. The syntax of a
 programming language is much the same.
