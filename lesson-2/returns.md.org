@@ -1,7 +1,4 @@
 * Return from whence you came
-  :PROPERTIES:
-  :CUSTOM_ID: return-from-whence-you-came
-  :END:
 
 In the last section I mentioned that functions can optionally return a
 value and now we're going to show you how.
@@ -9,9 +6,9 @@ value and now we're going to show you how.
 So like before let's define a new function, let's call it add and it
 will take two arguments, sum them then return the result.
 
-#+BEGIN_SRC python
+#+BEGIN_SRC python :tangle functions.py
     def add(x, y):
-        return x + y
+	return x + y
 #+END_SRC
 
 Now we can do something like:
@@ -37,8 +34,8 @@ So that if you put any code after a return it will not be executed:
 
 #+BEGIN_SRC python
     def add(x, y):
-        return x + y
-        x + 10 + y # This line never gets executed.
+	return x + y
+	x + 10 + y # This line never gets executed.
 #+END_SRC
 
 You now have all the basics of functions! Pretty soon we'll stop
