@@ -1,9 +1,9 @@
 * Putting the FUN in FUNction
 
   So we named this script hello.py but it doesn't really say hello, it
-  just prints the name we put in your\_name, which isn't very exciting.
+  just prints the name we put in your_name, which isn't very exciting.
 
-  So now we are going to make our script say "Hello your\_name"
+  So now we are going to make our script say "Hello your_name"
 
   To do this we are going to write a function. A function in programming
   is a set of code that takes some number of arguments (sometimes called
