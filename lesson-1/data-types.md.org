@@ -1,18 +1,15 @@
 * Types and duck-typing
-  :PROPERTIES:
-  :CUSTOM_ID: types-and-duck-typing
-  :END:
 
 In Python there are a few "primitive types":
 
--  /Integers/ Are simple whole numbers or "counting numbers" 1, 2, 3 but
+-  *Integers* Are simple whole numbers or "counting numbers" 1, 2, 3 but
    not 1.12 etc.
--  /Floats/ Are numbers that contain a decimal point such as 1.23 or
+-  *Floats* Are numbers that contain a decimal point such as 1.23 or
    2.34 or 3.14
--  /Booleans/ These are True or False, you will use these a lot as
+-  *Booleans* These are True or False, you will use these a lot as
    switches. (Note: that true and false are not booleans. Capitalization
    matters!)
--  /Strings/ Strings are "strings of characters" as a matter of fact
+-  *Strings* Strings are "strings of characters" as a matter of fact
    that previous statement in quotes is itself a string. In Python any
    characters between double quotes is considered a string.
 
