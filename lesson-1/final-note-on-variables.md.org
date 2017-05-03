@@ -35,8 +35,8 @@ typed you can reassign it to a value of a different type.
     >>> num1 = "A number"
 #+END_SRC
 
-And that's completely valid (though bad practice unless you have a VERY
-good reason.)
+And that's completely valid (though you probably shouldn't unless you
+have a very good reason.)
 
 You can set a variable to the value of another variable then they act
 indenpendently. For example:
