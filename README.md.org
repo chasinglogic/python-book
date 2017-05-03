@@ -75,7 +75,7 @@ Note for Mac Users: If you're running Mac OS X and you have
 [[https://brew.sh][homebrew]] installed you can install python 3 via
 
 #+BEGIN_SRC sh
-    brew install python3 
+    brew install python3
 #+END_SRC
 
 *** Pip and Virtualenv
@@ -90,13 +90,13 @@ just upgrade it:
 Mac OS X / Linux:
 
 #+BEGIN_SRC sh
-    pip install -U pip 
+    pip install -U pip
 #+END_SRC
 
 Windows:
 
 #+BEGIN_SRC sh
-    python -m pip install -U pip 
+    python -m pip install -U pip
 #+END_SRC
 
 *** Git SCM
