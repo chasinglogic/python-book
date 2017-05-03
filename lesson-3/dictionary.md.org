@@ -61,7 +61,7 @@ understand the terminology:
     #Key Name   Value stored at that key
     #    V       V
        'key': 'value',
-               # ^ Denotes the end of a key / value pair.
+	       # ^ Denotes the end of a key / value pair.
     }
     #^ This denotes the end of the dictionary
 
@@ -90,7 +90,7 @@ use them in a for loop!
        'programming': "the act or job of creating computer programs",
     }
 
-    for word, definition in dictionary:
+    for word, definition in dictionary.items():
        print(word)
        print("1.", definition)
 #+END_SRC
