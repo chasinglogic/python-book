@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * A final note on variables
   :PROPERTIES:
   :CUSTOM_ID: a-final-note-on-variables

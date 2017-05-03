@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#org7e08239">1. Your First Application</a></li>
-</ul>
-</div>
-</div>
-
-<a id="org7e08239"></a>
-
 # Your First Application
 
 So if you recall we had a task list from the start of this lesson:

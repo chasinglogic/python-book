@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * Homework
   :PROPERTIES:
   :CUSTOM_ID: homework

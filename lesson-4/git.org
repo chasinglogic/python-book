@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * How to *git* things done.
 
   So the first step to starting any new project is to create a folder to

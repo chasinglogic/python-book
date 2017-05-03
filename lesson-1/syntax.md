@@ -1,27 +1,5 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#syntatic-sugar">1. Syntatic Sugar</a>
-<ul>
-<li>
-<ul>
-<li><a href="#a-brief-aside-about-syntax">1.0.1. A brief aside about syntax</a></li>
-<li><a href="#lets-write-our-first-code">1.0.2. Let's write our first code!</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-
-<a id="syntatic-sugar"></a>
-
 # Syntatic Sugar
 
-
-<a id="a-brief-aside-about-syntax"></a>
 
 ### A brief aside about syntax
 
@@ -36,8 +14,6 @@ in math to seperate calculations from one another for example:
 The parentheses have special meaning in the context. The syntax of a
 programming language is much the same.
 
-
-<a id="lets-write-our-first-code"></a>
 
 ### Let's write our first code!
 

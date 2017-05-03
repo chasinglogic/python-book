@@ -1,25 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orgb9eb8cd">1. Conditionals</a>
-<ul>
-<li><a href="#org3cea6ed">1.1. Is Equal To</a></li>
-<li><a href="#org8779cfb">1.2. "Less than" or "Greater Than"</a></li>
-<li><a href="#org27a72d1">1.3. "Less than or equal to" or "Greater than or equal to"</a></li>
-<li><a href="#org0453ffc">1.4. An example script</a></li>
-</ul>
-</li>
-<li><a href="#org921b7c7">2. A quick aside</a></li>
-<li><a href="#orgc27fde9">3. Back to conditioning</a></li>
-<li><a href="#orgada2e45">4. A little bit of terminology before moving on.</a></li>
-<li><a href="#orgeaa0123">5. And now for the last bit, logical operators</a></li>
-</ul>
-</div>
-</div>
-
-<a id="orgb9eb8cd"></a>
-
 # Conditionals
 
 Conditionals (sometimes referred to as Control Flow) are ways that we
@@ -42,8 +20,6 @@ we have comparison operators that way we can determine if something is
 True or not when our program is running. Starting with:
 
 
-<a id="org3cea6ed"></a>
-
 ## Is Equal To
 
 	==
@@ -59,8 +35,6 @@ time. For example let's say you have a function like:
 And you call it with `comparator(5, 3)` it will return False.
 
 
-<a id="org8779cfb"></a>
-
 ## "Less than" or "Greater Than"
 
 	> or <
@@ -70,8 +44,6 @@ so easy you learned most of this when you were 12.) "greater than" or
 "less than" is the easiest `5 < 5` is false but `3 < 5` is True.
 
 
-<a id="org27a72d1"></a>
-
 ## "Less than or equal to" or "Greater than or equal to"
 
 	<= or >=
@@ -80,8 +52,6 @@ so easy you learned most of this when you were 12.) "greater than" or
 as above except they also check for `= so =5 < 5` is False but `5 <= 5` is
 True
 
-
-<a id="org0453ffc"></a>
 
 ## An example script
 
@@ -105,8 +75,6 @@ multiple answers but don't just use True as a literal for all the if
 statements.)
 
 
-<a id="org921b7c7"></a>
-
 # A quick aside
 
 So when we did math operators in Lesson 1 I forgot about an operator
@@ -123,8 +91,6 @@ I think putting an entire refresher on long division in here is
 unnecessary and distracting so if you need one I recommend
 [this one](https://www.mathsisfun.com/long_division2.html)
 
-
-<a id="orgc27fde9"></a>
 
 # Back to conditioning
 
@@ -193,8 +159,6 @@ you should go back to our original multiple if statement script and see
 if you can explain in plain English what's going on there.
 
 
-<a id="orgada2e45"></a>
-
 # A little bit of terminology before moving on.
 
 Real quickly I want to stop for a second and explain what some of the
@@ -219,8 +183,6 @@ you've also seen:
 
 Which are called comparison operators
 
-
-<a id="orgeaa0123"></a>
 
 # And now for the last bit, logical operators
 

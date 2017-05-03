@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * A new data type.
   :PROPERTIES:
   :CUSTOM_ID: a-new-data-type.

@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * Create and List todos
 
 So continuing from last time we will be tackling:

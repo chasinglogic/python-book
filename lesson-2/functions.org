@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * Putting the FUN in FUNction
 
   So we named this script hello.py but it doesn't really say hello, it

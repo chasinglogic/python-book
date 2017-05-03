@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#org12cc0f1">1. The Dictionary</a></li>
-</ul>
-</div>
-</div>
-
-<a id="org12cc0f1"></a>
-
 # The Dictionary
 
 Not the merriam webster kind. In Python we have the dictionary to

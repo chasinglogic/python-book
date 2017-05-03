@@ -1,15 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#not-an-empty-nester.">1. Not an empty nester.</a></li>
-<li><a href="#multi-dimensional-arrays">2. Multi dimensional arrays</a></li>
-</ul>
-</div>
-</div>
-
-<a id="not-an-empty-nester."></a>
-
 # Not an empty nester.
 
 So far the world we've been working in is flat with simple one line code
@@ -62,8 +50,6 @@ the word "STOP" and we want to skip when we have the word "SKIP"
 Try to guess what the output of this script will be. Write it down then
 type in the script and run it and see how close you were.
 
-
-<a id="multi-dimensional-arrays"></a>
 
 # Multi dimensional arrays
 

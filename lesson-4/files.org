@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * Persisting to Disk
 
   Currently our application is maintaing a state (in this case it's

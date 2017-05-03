@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * A brief trip back to 6th grade math
   :PROPERTIES:
   :CUSTOM_ID: a-brief-trip-back-to-6th-grade-math

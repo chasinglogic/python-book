@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * Let's get Loopy!
   :PROPERTIES:
   :CUSTOM_ID: lets-get-loopy

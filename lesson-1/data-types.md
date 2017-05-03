@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#org4927c36">1. Types and duck-typing</a></li>
-</ul>
-</div>
-</div>
-
-<a id="org4927c36"></a>
-
 # Types and duck-typing
 
 In Python there are a few "primitive types":

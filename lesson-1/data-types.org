@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * Types and duck-typing
 
 In Python there are a few "primitive types":

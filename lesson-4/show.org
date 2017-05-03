@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * Showing a todo
 
 So just so we're on the same page here is a dump of the current full

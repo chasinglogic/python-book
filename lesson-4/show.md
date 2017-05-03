@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orgdc543a0">1. Showing a todo</a></li>
-</ul>
-</div>
-</div>
-
-<a id="orgdc543a0"></a>
-
 # Showing a todo
 
 So just so we're on the same page here is a dump of the current full

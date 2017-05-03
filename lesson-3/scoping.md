@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#org660e6a9">1. Variable Scoping</a></li>
-</ul>
-</div>
-</div>
-
-<a id="org660e6a9"></a>
-
 # Variable Scoping
 
 The last topic I want to touch on in this lesson is variable scoping.

@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * Variable Scoping
 
 The last topic I want to touch on in this lesson is variable scoping.

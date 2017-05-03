@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#org3b27274">1. Return from whence you came</a></li>
-</ul>
-</div>
-</div>
-
-<a id="org3b27274"></a>
-
 # Return from whence you came
 
 In the last section I mentioned that functions can optionally return a

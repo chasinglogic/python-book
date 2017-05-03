@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * Return from whence you came
 
 In the last section I mentioned that functions can optionally return a

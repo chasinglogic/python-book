@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#a-final-note-on-variables">1. A final note on variables</a></li>
-</ul>
-</div>
-</div>
-
-<a id="a-final-note-on-variables"></a>
-
 # A final note on variables
 
 I know it seems like we're spending a ton of time on variables but

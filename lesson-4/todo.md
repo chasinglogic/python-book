@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#org9888569">1. Our first application.</a></li>
-</ul>
-</div>
-</div>
-
-<a id="org9888569"></a>
-
 # Our first application.
 
 Now we are going to write our first application. It's going to be a

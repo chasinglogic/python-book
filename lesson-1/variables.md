@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#a-brief-trip-back-to-6th-grade-math">1. A brief trip back to 6th grade math</a></li>
-</ul>
-</div>
-</div>
-
-<a id="a-brief-trip-back-to-6th-grade-math"></a>
-
 # A brief trip back to 6th grade math
 
 If you've ever heard that programming and math are related, that's

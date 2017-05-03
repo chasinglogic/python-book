@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#lets-get-loopy">1. Let's get Loopy!</a></li>
-</ul>
-</div>
-</div>
-
-<a id="lets-get-loopy"></a>
-
 # Let's get Loopy!
 
 So if I asked you at this point in your Python career to write a script

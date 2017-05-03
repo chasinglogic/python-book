@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * The Dictionary
 
 Not the merriam webster kind. In Python we have the dictionary to

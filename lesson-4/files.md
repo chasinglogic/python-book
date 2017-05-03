@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#org99b7775">1. Persisting to Disk</a></li>
-</ul>
-</div>
-</div>
-
-<a id="org99b7775"></a>
-
 # Persisting to Disk
 
 Currently our application is maintaing a state (in this case it's

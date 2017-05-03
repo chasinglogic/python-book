@@ -1,37 +1,10 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#to-parseltongue-in-6-lessons">1. # 0 to Parseltongue in 6 lessons</a></li>
-<li><a href="#a-quick-four-word.">2. A quick four word.</a></li>
-<li><a href="#a-foreword.">3. A foreword.</a></li>
-<li><a href="#getting-started">4. # Getting Started</a></li>
-<li><a href="#choose-your-weapon.">5. Choose your weapon.</a>
-<ul>
-<li><a href="#text-editor">5.1. Text Editor</a></li>
-<li><a href="#python-interpreter">5.2. Python Interpreter</a></li>
-<li><a href="#pip-and-virtualenv">5.3. Pip and Virtualenv</a></li>
-<li><a href="#git-scm">5.4. Git SCM</a></li>
-<li><a href="#coding-style-guide">5.5. Coding Style Guide</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
+# 0 to Parseltongue in 6 lessons
 
-<a id="to-parseltongue-in-6-lessons"></a>
-
-# # 0 to Parseltongue in 6 lessons
-
-
-<a id="a-quick-four-word."></a>
 
 # A quick four word.
 
 This is a book.
 
-
-<a id="a-foreword."></a>
 
 # A foreword.
 
@@ -46,17 +19,11 @@ is the only real way to learn programming and you have to be self
 motivated to get anything from this book.
 
 
-<a id="getting-started"></a>
+# Getting Started
 
-# # Getting Started
-
-
-<a id="choose-your-weapon."></a>
 
 # Choose your weapon.
 
-
-<a id="text-editor"></a>
 
 ## Text Editor
 
@@ -78,8 +45,6 @@ above or find your own, there is abundance of options available and you
 can always switch later. (I know I've switched multiple times!)
 
 
-<a id="python-interpreter"></a>
-
 ## Python Interpreter
 
 We will talk more about what the interpreter is and what it does later,
@@ -97,8 +62,6 @@ Note for Mac Users: If you're running Mac OS X and you have
 	brew install python3
 
 
-<a id="pip-and-virtualenv"></a>
-
 ## Pip and Virtualenv
 
 These are tools we will uselater however they are pretty excellent to
@@ -113,8 +76,6 @@ Windows:
 
 	python -m pip install -U pip
 
-
-<a id="git-scm"></a>
 
 ## Git SCM
 
@@ -131,8 +92,6 @@ Store and you should be good to go
 [here](https://git-scm.com/download/win) you can just accept all the
 defaults.
 
-
-<a id="coding-style-guide"></a>
 
 ## Coding Style Guide
 

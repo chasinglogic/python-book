@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * Conditionals
 
 Conditionals (sometimes referred to as Control Flow) are ways that we

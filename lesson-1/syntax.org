@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * Syntatic Sugar
   :PROPERTIES:
   :CUSTOM_ID: syntatic-sugar

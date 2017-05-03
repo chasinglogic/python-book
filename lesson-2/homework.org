@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * Homework
   :PROPERTIES:
   :CUSTOM_ID: homework
@@ -12,5 +14,3 @@
 
 3. Look up type conversions. Create a function which can concatenate a
    string and an integer.
-
-

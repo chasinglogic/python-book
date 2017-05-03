@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orgd7ca772">1. Create and List todos</a></li>
-</ul>
-</div>
-</div>
-
-<a id="orgd7ca772"></a>
-
 # Create and List todos
 
 So continuing from last time we will be tackling:

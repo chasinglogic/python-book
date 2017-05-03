@@ -1,19 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orge4d2110">1. How to <b>git</b> things done.</a>
-<ul>
-<li><a href="#org6b4b74c">1.1. What is Git?</a></li>
-<li><a href="#orgdb2742b">1.2. Your first commit.</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-
-<a id="orge4d2110"></a>
-
 # How to **git** things done.
 
 So the first step to starting any new project is to create a folder to
@@ -35,8 +19,6 @@ Once you're in your terminal in that folder:
 
 	super_todo $ git init
 
-
-<a id="org6b4b74c"></a>
 
 ## What is Git?
 
@@ -90,8 +72,6 @@ Now that's a lot to take in and some of it still won't make sense to you
 because it's hard to understand without seeing it in action. So with
 that said let's start our project.
 
-
-<a id="orgdb2742b"></a>
 
 ## Your first commit.
 

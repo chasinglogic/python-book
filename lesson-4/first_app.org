@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * Your First Application
 
 So if you recall we had a task list from the start of this lesson:

@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orgdc3cd7d">1. Putting the FUN in FUNction</a></li>
-</ul>
-</div>
-</div>
-
-<a id="orgdc3cd7d"></a>
-
 # Putting the FUN in FUNction
 
 So we named this script hello.py but it doesn't really say hello, it

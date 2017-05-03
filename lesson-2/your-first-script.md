@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#orgec0c5fd">1. Your first script</a></li>
-</ul>
-</div>
-</div>
-
-<a id="orgec0c5fd"></a>
-
 # Your first script
 
 Ok we're going to actually step out of the interpreter and start writing

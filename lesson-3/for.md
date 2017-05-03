@@ -1,16 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#a-new-data-type.">1. A new data type.</a></li>
-<li><a href="#final-note-on-lists.">2. Final note on lists.</a></li>
-<li><a href="#literally-for-goodness_snakes">3. Literally for goodness\<sub>snakes</sub></a></li>
-</ul>
-</div>
-</div>
-
-<a id="a-new-data-type."></a>
-
 # A new data type.
 
 I'm going to introduce a new data type in this chapter before we can
@@ -58,8 +45,6 @@ it will print "Midland Brownsnake". See if you can modify this to print
 "Eastern Gatersnake"
 
 
-<a id="final-note-on-lists."></a>
-
 # Final note on lists.
 
 List elements can be of any type in python, so you can have a list of
@@ -72,8 +57,6 @@ access the elements is **ALWAYS** an integer.
 so to get the number 3 out of the list of ints you would do
 `list_of_ints[2]` intuitive right?&#x2026;..
 
-
-<a id="literally-for-goodness_snakes"></a>
 
 # Literally for goodness\\<sub>snakes</sub>
 

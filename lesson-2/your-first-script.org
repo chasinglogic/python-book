@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 * Your first script
 
 Ok we're going to actually step out of the interpreter and start writing

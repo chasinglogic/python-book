@@ -1,14 +1,3 @@
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#homework">1. Homework</a></li>
-</ul>
-</div>
-</div>
-
-<a id="homework"></a>
-
 # Homework
 
 1.  Play with variables of different types, see what adding / subtracting
