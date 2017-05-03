@@ -1,12 +1,9 @@
 * The Dictionary
-  :PROPERTIES:
-  :CUSTOM_ID: the-dictionary
-  :END:
 
-No not the merriam webster kind, in Python we have the dictionary to
-represent complex data structures, for example with what you've learned
-so far you don't have a way to create a variable which represents, for
-example, a person.
+Not the merriam webster kind. In Python we have the dictionary to
+represent complex data structures. With what you've learned so far you
+don't have a way to create a variable which represents, for example, a
+person.
 
 Let's stop and think for a moment about what describes a person on a
 very simple level:
@@ -18,7 +15,7 @@ very simple level:
 -  Has Siblings?
 
 This is just a simple list but you could go on and on. In Python how
-would we for example assign this to a variable? =me = ?= one solution
+would we for example assign this to a variable? ~me = ?~ one solution
 would be to track them seperately:
 
 #+BEGIN_SRC python
@@ -36,7 +33,7 @@ is sometimes called a hashmap and all that it is is a Key => Value store
 where the keys are all strings and the values can be anything. Here is
 the dictionary version of the above code:
 
-#+BEGIN_SRC python
+#+BEGIN_SRC python :tangle dictionaries.py
     me = {
        'full_name': "Mathew Robinson",
        'age': 24,
@@ -52,21 +49,21 @@ the dictionary version of the above code:
     print("and I am", me["age"], "years old.")
 #+END_SRC
 
-The syntax for dictionaries is pretty simple here is a breakdown so you
+The syntax for dictionaries is pretty simple. Here is a breakdown so you
 understand the terminology:
 
-#+BEGIN_SRC python
-    #           V This denotes the beginning of the dictionary.
-    variable_name = {
-    #Key Name   Value stored at that key
-    #    V       V
-       'key': 'value',
-	       # ^ Denotes the end of a key / value pair.
-    }
-    #^ This denotes the end of the dictionary
+#+BEGIN_SRC python :tangle dictionaries.py
+  #               V This denotes the beginning of the dictionary.
+  variable_name = {
+      # Key Name: Value stored at that key
+      #    V       V
+	 'key': 'value',
+      #                ^ Denotes the end of a key / value pair.
+  }
+  #^ This denotes the end of the dictionary
 
-    #And just like on arrays you can declare it all on one line as well,
-    variable_name = { 'key': 'value', }
+  # And just like on arrays you can declare it all on one line as well,
+  variable_name = { 'key': 'value' }
 #+END_SRC
 
 The important thing to remember is keys are always strings but values
@@ -74,7 +71,7 @@ can be of any type. The way then to pull a value out is much like
 accessing an index in an array except you use the key name instead of a
 number:
 
-#+BEGIN_SRC python
+#+BEGIN_SRC python :tangle dictionaries.py
     # prints "value"
     print(variable_name["key"])
 #+END_SRC
@@ -82,7 +79,7 @@ number:
 The best part about dictionaries is that they are Iterators so you can
 use them in a for loop!
 
-#+BEGIN_SRC python
+#+BEGIN_SRC python :tangle dictionaries.py
     dictionary = {
        'hello': "A greeting.",
        'python': "A programming language.",
@@ -92,9 +89,16 @@ use them in a for loop!
 
     for word, definition in dictionary.items():
        print(word)
-       print("1.", definition)
+       print("\t1.", definition)
 #+END_SRC
 
-Dictionaries are very simple but are very powerful. You'll be using them
+We've snuck one more new concept into this snippet! Note the =\t= that
+is called an *escape character*. Which is a fancy way to represent
+invisible characters to the computer, for instance =\t= is equivalent
+to the tab key. Another common example is =\n= which is a "new line"
+character and is simliar to presssing enter on your keyboard. For a
+full list of escape characters you can look [[https://docs.python.org/3/reference/lexical_analysis.html#index-18][here]]
+
+Dictionaries are very simple and very powerful. You'll be using them
 frequently throughout your python career so make sure you are very
 comfortable with these before moving on.

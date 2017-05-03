@@ -1,7 +1,4 @@
 * Variable Scoping
-  :PROPERTIES:
-  :CUSTOM_ID: variable-scoping
-  :END:
 
 The last topic I want to touch on in this lesson is variable scoping.
 When you create a variable at the "global level" it is accesible to
@@ -15,30 +12,53 @@ For example:
     globe_trotter = 5
 
     def anotherfunction():
-        # this will cause the script to fail. y is not defined in this scope
-        print(y)
+	# this will cause the script to fail. y is not defined in this scope
+	print(y)
 
     def afunction():
-        print(globe_trotter)
-        y = 10
+	print(globe_trotter)
+	y = 10
 
     print(globe_trotter)
     afunction()
-    anotherfunction() 
+    anotherfunction()
 #+END_SRC
 
 This also means that anything you create inside a loop is not accessible
 outside the loop. This includes the variables made in a for loop:
 
 #+BEGIN_SRC python
-    some_names = ["mat", "joey", "scott"]
+  some_names = ["mat", "joey", "scott"]
 
-    for name in names:
-       # This will work since it is inside the loop
-       print(name)
+  for name in names:
+     # This will work since it is inside the loop
+     print(name)
 
-    # This will fail because it is not inside the loop so name is undefined.
-    print(name)
+  # This will fail because it is not inside the loop so name is undefined.
+  print(name)
 #+END_SRC
+
+Additionally if we want to modify a global inside a function we have
+to specify this using the global keyword.
+
+#+BEGIN_SRC python
+  globe_trotter = 5
+
+  def afunction():
+      print(globe_trotter)
+      y = 10
+
+
+  def bfunction():
+      global globe_trotter
+      globe_trotter += 1
+
+  afunction() # prints 5
+  bfunction()
+  afunction() # prints 6
+#+END_SRC
+
+global will either declare a new global or grab an existing global
+variable and let you modify it.
 
 This should be pretty simple but can lead to some gotcha moments.
