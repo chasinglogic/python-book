@@ -99,12 +99,9 @@ unnecessary and distracting so if you need one I recommend
 [[https://www.mathsisfun.com/long_division2.html][this one]]
 
 * Back to conditioning
-  :PROPERTIES:
-  :CUSTOM_ID: back-to-conditioning
-  :END:
 
 Now if you want to chain conditions you can do as we did above however
-if two of the conditions are true (such as if x = 5 and y = 5) you will
+if two of the conditions are true (such as if ~x = 5~ and ~y = 5~) you will
 trigger two print statements
 
 #+BEGIN_SRC python
@@ -130,14 +127,14 @@ need an else if statement.
 This will execute the first statement if the if is true otherwise it
 will execute the else!
 
-For example given that x = 3 and y = 5 you will only get one line of
+For example given that ~x = 3~ and ~y = 5~ you will only get one line of
 output:
 
 #+BEGIN_EXAMPLE
     x is less than y
 #+END_EXAMPLE
 
-And if x = 3 and y = 3 you will still only get one line of output:
+And if ~x = 3~ and ~y = 3~ you will still only get one line of output:
 
 #+BEGIN_EXAMPLE
     x is greater than y
@@ -178,23 +175,21 @@ you should go back to our original multiple if statement script and see
 if you can explain in plain English what's going on there.
 
 * A little bit of terminology before moving on.
-  :PROPERTIES:
-  :CUSTOM_ID: a-little-bit-of-terminology-before-moving-on.
-  :END:
 
 Real quickly I want to stop for a second and explain what some of the
 terminology I've been using means. When looking at an if statement
 here's how you can describe each part:
 
 #+BEGIN_SRC python
-    #The if statement
-    #|-------|
-       #The condition or expression
-       #|---|
-    if x < y:
-	# Some code here.
-	#|---------------|
-	  #The code block
+      #The if statement
+      #|-------|
+	 #The condition or expression
+	 #|---|
+      if x < y:
+	  # Some code here.
+	  #|---------------|
+	  # The code block starts here and ends on the first
+	  # non-idented line
 #+END_SRC
 
 you've also seen:
@@ -208,20 +203,15 @@ you've also seen:
 Which are called comparison operators
 
 * And now for the last bit, logical operators
-  :PROPERTIES:
-  :CUSTOM_ID: and-now-for-the-last-bit-logical-operators
-  :END:
 
-This table is mostly stolen from the
-[[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators][Mozilla
-Developer Network]] and I modified it for Python because it's a
-fantastic explanation.
+This table is mostly stolen from the [[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators][Mozilla Developer Network]] and I
+modified it for Python because it's a fantastic explanation.
 
-| Operator      | Usage             | Description                                                                                                                                                                                                                  |
-|---------------+-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Logical AND   | expr1 and expr2   | Returns expr1 if it can be converted to false; otherwise, returns expr2. Thus, when used with Boolean values, and returns true if both operands can be converted to true; otherwise, returns false.                          |
-| Logical OR    | expr1 or expr2    | Returns expr1 if it can be converted to true; otherwise, returns expr2. Thus, when used with Boolean values, or returns true if either operand can be converted to true; if both can be converted to false, returns false.   |
-| Logical NOT   | !expr             | Returns false if its single operand can be converted to true; otherwise, returns true.                                                                                                                                       |
+| Operator    | Usage           | Description                                                                               |
+|-------------+-----------------+-------------------------------------------------------------------------------------------|
+| Logical AND | expr1 and expr2 | Returns True if expr1 AND expr2 are both true, if expr1 is false does not evaluate expr2. |
+| Logical OR  | expr1 or expr2  | Returns True if expr1 OR expr2 is true, if expr1 is true does not evaluate expr2.         |
+| Logical NOT | !expr           | Returns True if expr is False                                                             |
 
 Logical operators allow you to create "Compound Conditions" which looks
 something like the following.
@@ -235,27 +225,27 @@ something like the following.
 	print("x is greater than y")
 #+END_SRC
 
-What's going on here is that the statement "x is a positive number that
-is less than y" will only be printed if BOTH conditions are true, that
-is is x is less than y AND x is greater than 0. For instance if x = -1
-and y = 2 the condition will check
+What's going on here is that the statement "x is a positive number
+that is less than y" will only be printed if BOTH conditions are
+true. That is x is less than y AND x is greater than 0. For instance
+if ~x = -1~ and ~y = 2~ the condition will check
 
-is -1 < 2? Yes is -1 > 0? No
+is ~-1 < 2~? Yes is ~-1 > 0~? No
 
 So it returns false since both statements are not true. The reverse of
-this is the or statement which checks if either condition is true so for
-the example above if we wrote it as:
+this is the or statement which checks if either condition is true so
+for the example above if we wrote it as:
 
 #+BEGIN_SRC python
     if x < y or x > 0:
 	print("x is a positive number or is less than y")
 #+END_SRC
 
-The condition would be evaluated to true since one side of the condition
-is true.
+The condition would be evaluated to true since one side of the
+condition is true.
 
-is -1 < 2? Yes is -1 > 0? No
+is ~-1 < 2~? Yes is ~-1 > 0~? No
 
 returns True
 
-Now lets get looping!
+Now lets get to looping!
