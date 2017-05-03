@@ -1,7 +1,4 @@
 * Conditionals
-  :PROPERTIES:
-  :CUSTOM_ID: conditionals
-  :END:
 
 Conditionals (sometimes referred to as Control Flow) are ways that we
 can actually make our programs do some logic. The most basic is the if
@@ -9,32 +6,40 @@ statement and it's variants which look pretty much how you'd expect.
 
 #+BEGIN_SRC python
     if True:
-        print("True is true it turns out!")
+	print("True is true it turns out!")
 
     if False:
-        print("Skip me because False is false!")
+	print("Skip me because False is false!")
 #+END_SRC
 
-What do you think the output will be? Type it out then run this program.
+What do you think the output will be? You can try it in your
+interpreter to find out!
 
-Of course using constants isn't any better since we know that True is
-true so in Python we have some comparison operators that way we can
-determine if something is True or not when our program is running:
+Of course using constant boolean values isn't that helpful since we
+always know just by looking at the code whether the branch will
+execute or not. To have the computer actually make decisions in Python
+we have comparison operators that way we can determine if something is
+True or not when our program is running. Starting with:
+
+** Is Equal To
 
 #+BEGIN_EXAMPLE
     ==
 #+END_EXAMPLE
 
-This means "is equal to" so if you see 5 == 3 that is false but 5 == 5
-is true. you can use variables here as well that way you may not know
-the value ahead of time. Let's say you have a function
+This means "is equal to" so if you see ~5 == 3~ that is false but ~5
+== 5~ is true. You can use variables with these comparators to make
+decisions dynamically when you don't know the value ahead of
+time. For example let's say you have a function like:
 
 #+BEGIN_SRC python
     def comparator(x, y):
-        return x == y
+	return x == y
 #+END_SRC
 
-And you call it with comparator(5, 3) it will return False.
+And you call it with =comparator(5, 3)= it will return False.
+
+** "Less than" or "Greater Than"
 
 #+BEGIN_EXAMPLE
     > or <
@@ -42,30 +47,34 @@ And you call it with comparator(5, 3) it will return False.
 
 This is exactly like you remember from middle school (see programming is
 so easy you learned most of this when you were 12.) "greater than" or
-"less than" is the easiest 5 < 5 is false but 3 < 5 is True.
+"less than" is the easiest =5 < 5= is false but =3 < 5= is True.
+
+** "Less than or equal to" or "Greater than or equal to"
 
 #+BEGIN_EXAMPLE
     <= or >=
 #+END_EXAMPLE
 
 "Less than or equal to" or "Greater than or equal to" these are the same
-as above except they also check for == so 5 < 5 is False but 5 <= 5 is
+as above except they also check for == so =5 < 5= is False but ~5 <= 5~ is
 True
 
-With this in mind let's type a simple script.
+** An example script
 
-#+BEGIN_SRC python
+With this in mind let's make a simple script called =comparators.py=:
+
+#+BEGIN_SRC python :tangle comparators.py
     x = 5
     y = 10
 
     if x >= y:
-        print("x is greater than or equal to y")
+	print("x is greater than or equal to y")
 
     if x < y:
-        print("x is less than y")
+	print("x is less than y")
 
     if x == y:
-        print("x and y have the same value.")
+	print("x and y have the same value.")
 #+END_SRC
 
 Try to reason through this program before running it. Then I want you to
@@ -74,9 +83,6 @@ multiple answers but don't just use True as a literal for all the if
 statements.)
 
 * A quick aside
-  :PROPERTIES:
-  :CUSTOM_ID: a-quick-aside
-  :END:
 
 So when we did math operators in Lesson 1 I forgot about an operator
 that really only comes into play when dealing with conditionals and that
@@ -85,7 +91,7 @@ is the modulo operator. (in python it's represented as %)
 The Modulo operator does what every Elementary math student does, long
 division with a Remainder. The modulo will return that remainder
 
-So 5 % 3 will give you 2 since 3 only "goes into" 5 once and has 2 left
+So =5 % 3= will give you 2 since 3 only "goes into" 5 once and has 2 left
 over.
 
 I think putting an entire refresher on long division in here is
@@ -103,10 +109,10 @@ trigger two print statements
 
 #+BEGIN_SRC python
     if x >= y:
-        print("x is greater than or equal to y")
+	print("x is greater than or equal to y")
 
     if x == y:
-        print("x and y have the same value.")
+	print("x and y have the same value.")
 #+END_SRC
 
 Since 5 is greater than or equal to 5 and 5 is also equal to 5.
@@ -116,9 +122,9 @@ need an else if statement.
 
 #+BEGIN_SRC python
     if x < y:
-        print("x is less than y")
+	print("x is less than y")
     else:
-        print("x is greater than y")
+	print("x is greater than y")
 #+END_SRC
 
 This will execute the first statement if the if is true otherwise it
@@ -145,11 +151,11 @@ conditions so we can catch this edge case.
 
 #+BEGIN_SRC python
     if x < y:
-        print("x is less than y")
+	print("x is less than y")
     elif x == y:
-        print("x is equal to y")
+	print("x is equal to y")
     else:
-        print("x is greater than y")
+	print("x is greater than y")
 #+END_SRC
 
 Now when we run python will check each condition in order. Here is a
@@ -186,9 +192,9 @@ here's how you can describe each part:
        #The condition or expression
        #|---|
     if x < y:
-        # Some code here.
-        #|---------------|
-          #The code block
+	# Some code here.
+	#|---------------|
+	  #The code block
 #+END_SRC
 
 you've also seen:
@@ -222,11 +228,11 @@ something like the following.
 
 #+BEGIN_SRC python
     if x < y and x > 0:
-        print("x is a positive number that is less than y")
+	print("x is a positive number that is less than y")
     elif x < y:
-        print("x is less than y but is not a positive number.")
+	print("x is less than y but is not a positive number.")
     else:
-        print("x is greater than y")
+	print("x is greater than y")
 #+END_SRC
 
 What's going on here is that the statement "x is a positive number that
@@ -242,7 +248,7 @@ the example above if we wrote it as:
 
 #+BEGIN_SRC python
     if x < y or x > 0:
-        print("x is a positive number or is less than y")
+	print("x is a positive number or is less than y")
 #+END_SRC
 
 The condition would be evaluated to true since one side of the condition
