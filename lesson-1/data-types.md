@@ -16,6 +16,7 @@ In Python there are a few "primitive types":
 We can store anything of these types in a variable so lets make some!
 Try typing all of these into your interpreter.
 
+```
 	>>> na = "Na"
 	>>> batman = " Batman!"
 	>>> num1 = 5
@@ -23,6 +24,7 @@ Try typing all of these into your interpreter.
 	>>> float1 = 1.2
 	>>> float2 = 3.14
 	>>> this_is_python = True
+```
 
 Now since Python is a dynamically typed language it doesn't enforce any
 checks on what you can put into a variable. So a variable really is a
@@ -32,9 +34,9 @@ But what happens if you multiply a string by 16? What happens when you
 add two strings? Try typing this into your interpreter (See if you can
 guess what will happen first):
 
+```
 	>>> na * 16 + batman
-
-&#x2026;.
+```
 
 Pretty cool right? When you multiply a string, Python will create a new
 string where the original is repeated that many times and adding a
@@ -42,17 +44,19 @@ string simply "mushes" the two strings together!
 
 What if you add an integer to a string?
 
+```
 	>>> batman + 10
-
-&#x2026;
 
 	Traceback (most recent call last):
 	  File "<stdin>", line 1, in <module>
 	TypeError: Can't convert 'int' object to str implicitly
+```
 
 Whoops! It didn't like that very much! Look at the error message:
 
+```
 	TypeError: Can't convert 'int' object to str implicitly
+```
 
 Can you figure out what it's telling you?
 
@@ -62,9 +66,9 @@ string type so you've given me invalid input.
 Python will do a "type conversion" for you if it's one that it knows how
 to do automatically. For example adding an integer and a float:
 
+```
 	>>> num1 + float2
-
-&#x2026;
+```
 
 You got 8.14 right? That's a float! So Python knows that when adding an
 int and a float to convert the int to a float first.
